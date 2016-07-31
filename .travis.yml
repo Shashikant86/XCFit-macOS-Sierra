@@ -8,6 +8,6 @@ language: objective-c
 script:
  - set -o pipefail && xcodebuild -list
  - echo "==========Now Building for Tests==================="
- - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=54C3AC56-821B-405A-B4C7-B2BC2EC60650,OS=10.0' build-for-testing
+ - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' build-for-testing
  - echo "==========Now Running Only Cucumberish Tests==================="
- - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=54C3AC56-821B-405A-B4C7-B2BC2EC60650,OS=10.0' -only-testing:SierraXCFitCucumberish test-without-building
+ - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' -only-testing:SierraXCFitCucumberish test-without-building
