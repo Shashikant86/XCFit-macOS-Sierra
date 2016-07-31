@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>OCSlimProject-OCSlimProject.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AcceptanceTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>XCFit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>cslim.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>13EC363267247C6B5A67744763B4F628</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B4F24EF2D0CD56440755FD6D07164B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC4F0E94C29FE286883454E21D175472</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F673226E2D7E7F7C729F273DD77C1B28</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
