@@ -13,4 +13,4 @@ script:
  - echo "==========Now Building for Tests==================="
  - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' build-for-testing | xcpretty -f `xcpretty-travis-formatter`
  - echo "==========Now Running Only Cucumberish Tests==================="
- - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' -only-testing:SierraXCFitCucumberish test-without-building | xcpretty
+ - set -o pipefail &&  xcodebuild -workspace SierraXCFit.xcworkspace -scheme SierraXCFit -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' -only-testing:SierraXCFitCucumberish test-without-building 
