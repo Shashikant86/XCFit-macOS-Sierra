@@ -1,2 +1,4 @@
+|FrontPage.NewXcodeSuite.XcodeTest||12:17:16 Mon, Aug 29, 2016|
+|FrontPage.NewXcodeSuite||12:14:58 Mon, Aug 29, 2016|
 |FrontPage||12:07:41 Mon, Aug 29, 2016|
 |FrontPage.Xcode8Test||11:59:18 Mon, Aug 29, 2016|

@@ -17,4 +17,4 @@ script:
  - echo "==========Now Building target for Fitnesse ==================="
  - set -o pipefail && xcodebuild -workspace SierraXCFit.xcworkspace -scheme AcceptanceTests -sdk iphonesimulator -destination 'platform=iOS Simulator,id=7453E43C-6352-44AA-8BE0-2E09643F5F88,OS=10.0' clean build | xcpretty
  - echo "==========Now Running Fitnesse Tests ==================="
- - set -o pipefail && java -jar fitnesse-standalone.jar -v -o -c "FrontPage?suite&format=text"
+ - set -o pipefail && java -jar fitnesse-standalone.jar -v -o -c "FrontPage.NewXcodeSuite.XcodeTest?test&format=text"

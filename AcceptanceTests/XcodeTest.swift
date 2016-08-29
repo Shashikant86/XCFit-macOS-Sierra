@@ -1,13 +1,13 @@
 import Foundation
-@objc(Xcode8Test)
+@objc(XcodeTest)
 
-class Xcode8Test: NSObject, SlimDecisionTable {
+class XcodeTest: NSObject, SlimDecisionTable {
 
     var input = ""
 
     func setInput() -> String {
 
-        return "xcode8"
+        return "xcode"
     }
 
 
