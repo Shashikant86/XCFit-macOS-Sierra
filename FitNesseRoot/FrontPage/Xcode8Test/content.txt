@@ -1,3 +1,3 @@
-|Xcode8Test   |
-|input|output?|
-|1    |2      |
+|Xcode8Test    |
+|input |output?|
+|xcode8|pass   |
